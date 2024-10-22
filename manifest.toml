@@ -1,6 +1,2 @@
 archival_version = "0.8.0"
 site_url = "popop.org"
-prebuild = [
-    "npm ci",
-    "npm run build",
-]
