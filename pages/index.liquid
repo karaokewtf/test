@@ -1,1 +1,34 @@
-{% layout 'theme' title: "Archival Website" %}
+{% layout 'theme' title: "Website" %}
+
+<h1 class="text-3xl font-bold underline">
+  A Website Testing
+</h1>
+
+<div class="content">
+  {% for section in objects.section %}
+    {% if section.name %}
+      <h2>{{ section.name }}</h2>
+    {% endif %}
+    {% if section.body %}
+      <div>{{ section.body }}</div>
+    {% endif %}
+    {% if section.video %}
+      <video title="{{section.video.name}}" controls>
+        <source
+          src="{{section.video.url}}"
+          name="{{section.video.filename}}"
+          type="{{section.video.mime}}">
+      </video>
+    {% endif %}
+    {% for child in section.child %}
+      <div>(this is a child)</div>
+      <span>{{ child.string_validated }} </span>
+    {% endfor %}
+    {% if section.file %}
+      <a
+        href="{{section.file.url}}"
+        title="{{section.file.filename}}"
+        type="{{section.file.mime}}">{{ section.file.name }}</a>
+    {% endif %}
+  {% endfor %}
+</div>

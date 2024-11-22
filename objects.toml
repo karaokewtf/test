@@ -1,1 +1,21 @@
 # This file is used to define the objects available on your site.
+
+[section]
+name = "string"
+body = "markdown"
+switch = "boolean"
+count = "number"
+date = "date"
+audio = "audio"
+image = "image"
+video_aliased = "butt"
+file = "upload"
+custom_field = "custom_type"
+
+[section.child]
+string_validated = "butt2"
+stuff = "metabutt"
+
+[testing]
+name = "string"
+value = "markdown"
