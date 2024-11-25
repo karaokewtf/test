@@ -1,21 +1,22 @@
 order = -1
+name = "First Names"
 body = """
 # HELLO22
 Here is some *content*"""
-name = "First Names"
 
 [[child]]
 string_validated = "i didn't say the magic word"
 
-[child.stuff.foo.bar]
-baz = "Butt"
+[[child]]
+string_validated = "i didn't say the magic word"
 
+[[child]]
+string_validated = "i didn't say the magic word"
 
 [[child]]
 string_validated = "i didn't say the magic word"
+
 [[child]]
-string_validated = "i didn't say the magic word"
-[[child]]
-string_validated = "i didn't say the magic word"
-[[child]]
-string_validated = "i didn't say the magic word"
+string_validated = ""
+
+[child.stuff]
