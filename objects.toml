@@ -19,3 +19,6 @@ stuff = "metabutt"
 [testing]
 name = "string"
 value = "markdown"
+
+[site]
+name = "string"
