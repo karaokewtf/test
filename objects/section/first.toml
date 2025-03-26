@@ -12,6 +12,7 @@ baz = "Butt"
 
 [[child]]
 string_validated = "i didn't say the magic word"
+
 [[child]]
 string_validated = "i didn't say the magic word"
 
