@@ -11,9 +11,9 @@ string_validated = "i didn't say the magic word"
 baz = "Butt"
 
 [[child]]
-string_validated = "i didn't say the magic word"
+string_validated = "A SORT"
 
 [[child]]
-string_validated = "i didn't say the magic word"
+string_validated = "B SORT"
 
 [[child]]
