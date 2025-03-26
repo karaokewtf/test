@@ -7,18 +7,12 @@ name = "First Names"
 [[child]]
 string_validated = "i didn't say the magic word"
 
+[child.stuff.foo.bar]
+baz = "Butt"
+
+[[child]]
+string_validated = "i didn't say the magic word"
 [[child]]
 string_validated = "i didn't say the magic word"
 
 [[child]]
-string_validated = "i didn't say the magic word"
-
-[[child]]
-string_validated = ""
-
-[child.stuff]
-
-[[child]]
-string_validated = ""
-
-[child.stuff]
