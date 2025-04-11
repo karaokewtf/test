@@ -22,7 +22,7 @@
     {% endif %}
     {% for child in section.child %}
       <div>(this is a child)</div>
-      <span>{% default child.string_validated "" %}</span>
+      <span>{{ child.string_validated }}</span>
     {% endfor %}
     {% if section.file %}
       <a
