@@ -1,21 +1,23 @@
 site_url = "https://hello.onarchival.dev"
+upload_prefix = "e89998c1fd66b0dcafc4bcb22caac40c665d6ec1c9b49e1a7a9344fffed2e449/"
 prebuild = ["npm ci"]
 
 [editor_types.butt]
+type = "video"
 validate = []
-editor_url = ""
 
 [editor_types.butt2]
+type = "string"
 validate = ["magic"]
-editor_url = ""
 
 [editor_types.metabutt]
-editor_url = ""
+type = "meta"
 
 [[editor_types.metabutt.validate]]
 path = "foo.bar.baz"
 validate = "^[bB]"
 
 [editor_types.custom_type]
+type = "meta"
 validate = []
 editor_url = "http://localhost:9090/editor.html"
