@@ -1,4 +1,5 @@
 order = 50
+name = "Hello!"
 body = """
 # GOOOO
 
@@ -6,4 +7,3 @@ goo goo goo.
 
 who? goo."""
 child = []
-name = "Hello!"
