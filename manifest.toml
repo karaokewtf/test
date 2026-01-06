@@ -8,7 +8,7 @@ validate = []
 
 [editor_types.butt2]
 type = "string"
-validate = ["magic"]
+validate = ["magic\\d*"]
 
 [editor_types.metabutt]
 type = "meta"

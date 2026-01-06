@@ -15,6 +15,7 @@ custom_field = "custom_type"
 [section.child]
 string_validated = "butt2"
 stuff = "metabutt"
+unvalidated = "string"
 
 [testing]
 name = "string"
